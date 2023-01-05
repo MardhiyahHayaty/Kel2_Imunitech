@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_marginStart="34dp"
-            android:text="Daftar"
+            android:text="DaftarAja"
             android:textColor="#854D4C"
             android:textSize="36sp"
             android:fontFamily="@font/QuicksandBold"/>
