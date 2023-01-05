@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1185" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/drawable/beli.xml" value="0.1185" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/drawable/fil.xml" value="0.1185" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1185" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/drawable/ikon_tambah.xml" value="0.1185" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/drawable/input.xml" value="0.1185" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/drawable/menu.xml" value="0.1185" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/drawable/rounded_corner.xml" value="0.1" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/drawable/search.xml" value="0.1185" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/activity_layout_daftar.xml" value="0.12" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/activity_layout_detail_imunisasi.xml" value="0.2" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/activity_layout_edit_profil.xml" value="0.176" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/activity_layout_jenis_imunisasi.xml" value="0.2" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/activity_layout_lapor.xml" value="0.176" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/activity_layout_list_anak.xml" value="0.2" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/activity_layout_masuk.xml" value="0.16" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/activity_layout_riwayat_imunisasi.xml" value="0.22661870503597123" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/activity_layout_tentang_kami.xml" value="0.136" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/activity_layout_update_anak.xml" value="0.176" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/activity_list_jenis_imunisasi.xml" value="0.2" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/activity_list_riwayat_imunisasi.xml" value="0.16" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/activity_main.xml" value="0.1260245901639344" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/beranda.xml" value="0.16666666666666666" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/detail_sayur.xml" value="0.16666666666666666" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/fragment_list_anak.xml" value="0.152" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/fragment_tambah_anak.xml" value="0.1383399209486166" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/list_sayuran.xml" value="0.16666666666666666" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/login.xml" value="0.16666666666666666" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/onboard1.xml" value="0.16666666666666666" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/onboard2.xml" value="0.16666666666666666" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/onboard3.xml" value="0.16666666666666666" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/pesanan.xml" value="0.16666666666666666" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/profil.xml" value="0.16666666666666666" />
+        <entry key="..\:/PCR KULIAH/SEMESTER 5/WPM/Kel2_Imunitech/app/src/main/res/layout/register.xml" value="0.16666666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

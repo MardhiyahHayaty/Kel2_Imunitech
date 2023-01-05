@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListJenisImunisasi">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/ikon_back2"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="34dp"
+        android:src="@drawable/ikon_back" />
+
+    <TextView
+        android:id="@+id/judulListJenisImunisasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginEnd="34dp"
+        android:text="Jenis Imunisasi"
+        android:textSize="20sp"
+        android:textColor="#854D4C"
+        android:textStyle="bold"
+        android:layout_toEndOf="@+id/ikon_back2"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_list_jenis_imunisasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_below="@+id/judulListJenisImunisasi"/>
+
+</RelativeLayout>

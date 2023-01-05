@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="343dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="34dp"
+    android:layout_marginTop="24dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    app:cardPreventCornerOverlap="false">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rl_klik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="21dp"
+        android:foreground="?selectableItemBackground">
+
+        <TextView
+            android:id="@+id/judul_anak1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Si Kecil #1"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#854D4C"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageView
+            android:id="@+id/ikon_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/judul_anak1"
+            android:layout_marginStart="210dp"
+            android:src="@drawable/ikon_edit"
+            app:layout_constraintStart_toEndOf="@+id/judul_anak1"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/data_nama_anak"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="Nama Anak"
+            android:textSize="14sp"
+            android:textColor="#854D4C"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/judul_anak1"/>
+
+        <TextView
+            android:id="@+id/nilai_nama_anak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_marginStart="18dp"
+            android:text=":     Mardhiyah Hayaty"
+            android:textSize="14sp"
+            android:textColor="#854D4C"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/data_nama_anak"
+            app:layout_constraintTop_toBottomOf="@+id/judul_anak1"/>
+
+        <TextView
+            android:id="@+id/data_jeniskelamin_anak"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="Jenis Kelamin"
+            android:textSize="14sp"
+            android:textColor="#854D4C"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/data_nama_anak"/>
+
+        <TextView
+            android:id="@+id/nilai_jeniskelamin_anak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="18dp"
+            android:text=":     Perempuan"
+            android:textSize="14sp"
+            android:textColor="#854D4C"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/data_jeniskelamin_anak"
+            app:layout_constraintTop_toBottomOf="@+id/data_nama_anak"/>
+
+        <TextView
+            android:id="@+id/data_tgl_anak"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="Tanggal Lahir"
+            android:textSize="14sp"
+            android:textColor="#854D4C"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/data_jeniskelamin_anak"/>
+
+        <TextView
+            android:id="@+id/nilai_tgl_anak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="18dp"
+            android:text=":     14 - 11 - 2022"
+            android:textSize="14sp"
+            android:textColor="#854D4C"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/data_tgl_anak"
+            app:layout_constraintTop_toBottomOf="@+id/data_jeniskelamin_anak"/>
+
+        <TextView
+            android:id="@+id/data_alamat_anak"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="Alamat Anak"
+            android:textSize="14sp"
+            android:textColor="#854D4C"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/data_tgl_anak"/>
+
+        <TextView
+            android:id="@+id/nilai_alamat_anak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="18dp"
+            android:text=":     Jl. Patin, Rumbai"
+            android:textSize="14sp"
+            android:textColor="#854D4C"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/data_alamat_anak"
+            app:layout_constraintTop_toBottomOf="@+id/data_tgl_anak"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

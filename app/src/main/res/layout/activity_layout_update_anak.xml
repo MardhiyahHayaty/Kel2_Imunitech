@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="Edit Data Si Kecil"
+        android:textColor="#854D4C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#F6DED4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="29dp"
+        android:text="Nama Anak"
+        android:textColor="#854D4C"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtNamaAnakUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="29dp"
+        android:color="#854D4C"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="29dp"
+        android:text="Jenis Kelamin"
+        android:textColor="#854D4C"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtJenisKelaminAnakUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="29dp"
+        android:color="#854D4C"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="29dp"
+        android:text="Tanggal Lahir"
+        android:textColor="#854D4C"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtTanggalLahirAnakUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="29dp"
+        android:color="#854D4C"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="29dp"
+        android:text="Alamat Anak"
+        android:textColor="#854D4C"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtAlamatAnakUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="29dp"
+        android:color="#854D4C"/>
+
+</LinearLayout>

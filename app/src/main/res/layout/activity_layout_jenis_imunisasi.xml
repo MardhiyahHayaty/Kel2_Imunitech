@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="343dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="34dp"
+    android:layout_marginTop="24dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    app:cardPreventCornerOverlap="false">
+
+    <RelativeLayout
+        android:id="@+id/rl_klik_jenis_imunisasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="21dp"
+        android:foreground="?selectableItemBackground">
+
+        <TextView
+            android:id="@+id/jenis_imunisasi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hepatitis B"
+            android:textSize="14sp"
+            android:fontFamily="@font/QuicksandSemiBold"
+            android:textColor="#854D4C" />
+
+        <ImageView
+            android:id="@+id/ikon_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/jenis_imunisasi1"
+            android:layout_marginStart="210dp"
+            android:src="@drawable/ikon_detail" />
+
+        <ImageView
+            android:id="@+id/img_garis_jenis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/garis"
+            android:gravity="center"
+            android:layout_marginTop="28dp"/>
+
+        <TextView
+            android:id="@+id/data_usia_anak"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Usia Anak"
+            android:textSize="14sp"
+            android:textColor="#854D4C"
+            android:layout_below="@+id/jenis_imunisasi1"
+            android:fontFamily="@font/QuicksandRegular"/>
+
+        <TextView
+            android:id="@+id/nilai_usia_anak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="18dp"
+            android:text=":     < 24 Jam"
+            android:textSize="14sp"
+            android:textColor="#854D4C"
+            android:fontFamily="@font/QuicksandSemiBold"
+            android:layout_toEndOf="@+id/data_usia_anak"
+            android:layout_below="@+id/jenis_imunisasi1"/>
+
+        <TextView
+            android:id="@+id/data_manfaat"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="Manfaat"
+            android:textSize="14sp"
+            android:textColor="#854D4C"
+            android:layout_below="@+id/data_usia_anak"
+            android:fontFamily="@font/QuicksandRegular"/>
+
+        <TextView
+            android:id="@+id/nilai_manfaat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_marginStart="18dp"
+            android:text=":     Melindungi dari virus hati."
+            android:textSize="14sp"
+            android:textColor="#854D4C"
+            android:layout_toEndOf="@+id/data_manfaat"
+            android:layout_below="@+id/nilai_usia_anak"
+            android:fontFamily="@font/QuicksandRegular"/>
+
+        <TextView
+            android:id="@+id/data_efek"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="Efek Samping"
+            android:textSize="14sp"
+            android:textColor="#854D4C"
+            android:layout_below="@+id/nilai_manfaat"
+            android:fontFamily="@font/QuicksandRegular"/>
+
+        <TextView
+            android:id="@+id/nilai_efek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_marginStart="18dp"
+            android:text=":     Demam, kemerahan."
+            android:textSize="14sp"
+            android:textColor="#854D4C"
+            android:layout_toEndOf="@+id/data_efek"
+            android:layout_below="@+id/nilai_manfaat"
+            android:fontFamily="@font/QuicksandRegular"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="343dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="34dp"
+    android:layout_marginTop="11dp"
+    app:cardElevation="10dp"
+    app:cardPreventCornerOverlap="false">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rl_klik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="14dp"
+        android:foreground="?selectableItemBackground">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_anak"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/data_nama_imunisasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Polio 1"
+            android:textSize="14sp"
+            android:textColor="#854D4C"
+            android:fontFamily="@font/QuicksandMedium"
+            app:layout_constraintStart_toEndOf="@+id/img_anak"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/data_tgl_imunisasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="23 - 11 - 2022"
+            android:textSize="14sp"
+            android:textColor="#854D4C"
+            android:fontFamily="@font/QuicksandRegular"
+            app:layout_constraintStart_toEndOf="@+id/img_anak"
+            app:layout_constraintTop_toBottomOf="@+id/data_nama_imunisasi"/>
+
+        <TextView
+            android:id="@+id/data_lokasi_imunisasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Rumah Sakit Bhayangkara"
+            android:textSize="14sp"
+            android:textColor="#854D4C"
+            android:fontFamily="@font/QuicksandLight"
+            app:layout_constraintStart_toEndOf="@+id/img_anak"
+            app:layout_constraintTop_toBottomOf="@+id/data_tgl_imunisasi"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

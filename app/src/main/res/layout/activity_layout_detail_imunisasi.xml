@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ikon_back_detail_imunisasi"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="34dp"
+            android:src="@drawable/ikon_back"/>
+
+        <TextView
+            android:id="@+id/judulDetailImunisasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="34dp"
+            android:text="Informasi Umum Imunisasi"
+            android:textSize="20sp"
+            android:textColor="#854D4C"
+            android:fontFamily="@font/QuicksandBold"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_hepatitisb"
+        android:layout_width="204dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginEnd="104dp"
+        android:src="@drawable/hepatitisb"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:text="Hepatitis B"
+        android:textColor="#854D4C"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:fontFamily="@font/QuicksandBold"/>
+
+    <ImageView
+        android:id="@+id/img_garis"
+        android:layout_width="359dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:src="@drawable/garis"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="34dp"
+        android:fontFamily="@font/QuicksandRegular"
+        android:justificationMode="inter_word"
+        android:text="Vaksin hepatitis B adalah vaksin yang mencegah hepatitis B. Vaksin ini bekerja dengan cara merangsang sistem kekebalan tubuh agar menghasilkan antibodi untuk melawan virus. Vaksin hepatitis B diberikan sebanyak 3 dosis pada bulan ke 0, 1 dan 6. Dosis pertama dianjurkan dalam 24 jam kelahiran dengan dua atau tiga dosis lagi diberikan setelahnya."
+        android:textColor="#854D4C"
+        android:textSize="14sp"
+        app:lineHeight="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="34dp"
+        android:fontFamily="@font/QuicksandRegular"
+        android:gravity="justify"
+        android:text="Rilis pada 16 Desember 2022
+                                   Sumber dari kemenkes.go.id"
+        android:textColor="#854D4C"
+        android:textSize="14sp"
+        app:lineHeight="24dp" />
+
+</LinearLayout>

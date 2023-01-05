@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="Edit Data Diri"
+        android:textColor="#854D4C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#F6DED4"
+        android:fontFamily="@font/QuicksandBold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="Nama Lengkap"
+        android:textColor="#854D4C"
+        android:textSize="14sp"
+        android:fontFamily="@font/QuicksandMedium"/>
+
+    <EditText
+        android:id="@+id/edtNamaPenggunaUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:color="#854D4C"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="Alamat Email"
+        android:textColor="#854D4C"
+        android:textSize="14sp"
+        android:fontFamily="@font/QuicksandMedium"/>
+
+    <EditText
+        android:id="@+id/edtEmailUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:color="#854D4C"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="Password"
+        android:textColor="#854D4C"
+        android:textSize="14sp"
+        android:fontFamily="@font/QuicksandMedium"/>
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:color="#854D4C"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="No Hp"
+        android:textColor="#854D4C"
+        android:textSize="14sp"
+        android:fontFamily="@font/QuicksandMedium"/>
+
+    <EditText
+        android:id="@+id/edtNoHp"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:color="#854D4C"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="Nama Suami"
+        android:textColor="#854D4C"
+        android:textSize="14sp"
+        android:fontFamily="@font/QuicksandMedium"/>
+
+    <EditText
+        android:id="@+id/edtNamaSuami"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:color="#854D4C"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="Nama Istri"
+        android:textColor="#854D4C"
+        android:textSize="14sp"
+        android:fontFamily="@font/QuicksandMedium"/>
+
+    <EditText
+        android:id="@+id/edtNamaIstri"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:color="#854D4C"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="Alamat Rumah"
+        android:textColor="#854D4C"
+        android:textSize="14sp"
+        android:fontFamily="@font/QuicksandMedium"/>
+
+    <EditText
+        android:id="@+id/edtAlamatRumah"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:color="#854D4C"/>
+
+</LinearLayout>

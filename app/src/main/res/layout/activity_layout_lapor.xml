@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:layout_marginStart="34dp"
+        android:text="Lapor"
+        android:textColor="#854D4C"
+        android:textSize="36sp"
+        android:fontFamily="@font/QuicksandBold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:text="Laporkan gejala atau efek samping yang terjadi pada Si Kecil setelah imunisasi untuk mendapatkan penanganan lebih lanjut"
+        android:textColor="#854D4C"
+        android:textSize="14sp"
+        android:fontFamily="@font/QuicksandRegular"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:text="Nama Anak"
+        android:textColor="#854D4C"
+        android:textSize="14sp"
+        android:fontFamily="@font/QuicksandMedium"/>
+
+    <EditText
+        android:id="@+id/edtDaftarEmail"
+        android:layout_width="343dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:color="#854D4C"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:text="Jenis Imunisasi"
+        android:textColor="#854D4C"
+        android:textSize="14sp"
+        android:fontFamily="@font/QuicksandMedium"/>
+
+    <EditText
+        android:id="@+id/edtDaftarKataSandi"
+        android:layout_width="343dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:color="#854D4C"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:text="Lapor Gejala / Keluhan"
+        android:textColor="#854D4C"
+        android:textSize="14sp"
+        android:fontFamily="@font/QuicksandMedium"/>
+
+    <EditText
+        android:id="@+id/edtDaftarNama"
+        android:layout_width="343dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:color="#854D4C"/>
+
+    <Button
+        android:id="@+id/btnKirim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:background="#E9BBAB"
+        android:text="Kirim"
+        android:textColor="#854D4C"
+        android:textSize="16sp"
+        android:fontFamily="@font/QuicksandSemiBold"/>
+</LinearLayout>

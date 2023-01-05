@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F6DED4">
+
+    <ImageView
+        android:id="@+id/logo_imu_daftar"
+        android:layout_width="190dp"
+        android:layout_height="72"
+        android:layout_marginTop="69dp"
+        android:layout_marginStart="111dp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="649dp"
+        android:layout_marginTop="34dp"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="34dp"
+            android:text="Daftar"
+            android:textColor="#854D4C"
+            android:textSize="36sp"
+            android:fontFamily="@font/QuicksandBold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginEnd="34dp"
+            android:text="Selamat datang di IMUNITECH."
+            android:textColor="#854D4C"
+            android:textSize="14sp"
+            android:fontFamily="@font/QuicksandRegular"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginEnd="34dp"
+            android:text="Daftarkan akun Anda sekarang juga."
+            android:textColor="#854D4C"
+            android:textSize="14sp"
+            android:fontFamily="@font/QuicksandRegular"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginEnd="34dp"
+            android:text="Alamat Email"
+            android:textColor="#854D4C"
+            android:textSize="14sp"
+            android:fontFamily="@font/QuicksandMedium"/>
+
+        <EditText
+            android:id="@+id/edtDaftarEmail"
+            android:layout_width="343dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginEnd="34dp"
+            android:color="#854D4C"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginEnd="34dp"
+            android:text="Kata Sandi"
+            android:textColor="#854D4C"
+            android:textSize="14sp"
+            android:fontFamily="@font/QuicksandMedium"/>
+
+        <EditText
+            android:id="@+id/edtDaftarKataSandi"
+            android:layout_width="343dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginEnd="34dp"
+            android:color="#854D4C"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginEnd="34dp"
+            android:text="Nama Pengguna"
+            android:textColor="#854D4C"
+            android:textSize="14sp"
+            android:fontFamily="@font/QuicksandMedium"/>
+
+        <EditText
+            android:id="@+id/edtDaftarNama"
+            android:layout_width="343dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginEnd="34dp"
+            android:color="#854D4C"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginEnd="34dp"
+            android:text="Alamat Pengguna"
+            android:textColor="#854D4C"
+            android:textSize="14sp"
+            android:fontFamily="@font/QuicksandMedium"/>
+
+        <EditText
+            android:id="@+id/edtDaftarAlamat"
+            android:layout_width="343dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginEnd="34dp"
+            android:color="#854D4C"/>
+
+        <Button
+            android:id="@+id/btnDaftar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="34dp"
+            android:background="#E9BBAB"
+            android:fontFamily="@font/QuicksandSemiBold"
+            android:text="Daftar"
+            android:textColor="#854D4C"
+            android:textSize="16sp"
+            app:cornerRadius="10dp"
+            app:strokeColor="#FFFFFF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="122dp"
+                android:layout_marginTop="38dp"
+                android:text="Sudah punya akun?"
+                android:textColor="#854D4C"
+                android:textSize="14sp"
+                android:fontFamily="@font/QuicksandRegular"/>
+
+            <TextView
+                android:id="@+id/linkMasuk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="38dp"
+                android:layout_marginEnd="34dp"
+                android:text="Masuk"
+                android:textColor="#854D4C"
+                android:textSize="14sp"
+                android:fontFamily="@font/QuicksandBold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

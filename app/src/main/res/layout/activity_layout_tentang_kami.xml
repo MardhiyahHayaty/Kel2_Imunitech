@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:layout_marginStart="34dp"
+        android:text="Tentang Kami"
+        android:textColor="#854D4C"
+        android:textSize="36sp"
+        android:fontFamily="@font/QuicksandBold"/>
+
+    <ImageView
+        android:id="@+id/logo_imu_tentangkami"
+        android:layout_width="285dp"
+        android:layout_height="92"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="63dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:text="Imunitech adalah sebuah aplikasi yang membantu masyarakat dalam pelayanan kesehatan khususnya imunisasi. Immunitech hadir untuk memastikan Si Kecil mendapatkan imunisasi yang tepat sesuai usianya. Hal ini dikarenakan Imunitech dapat memudahkan Anda dalam mencatat dan memantau riwayat imunisasi Si Kecil. Salah satu fitur utama dari Imunitech adalah dengan adanya fitur daftar imunisasi sehingga Si Kecil bisa mendapatkan imunisasi dimanapun dan kapapun."
+        android:textColor="#854D4C"
+        android:textSize="14sp"
+        android:justificationMode="inter_word"
+        app:lineHeight="24dp"
+        android:fontFamily="@font/QuicksandRegular"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:text="Rilis pada 16 Desember 2022
+                                                Dikembangkan oleh Fransisko dan Mardhiyah"
+        android:textColor="#854D4C"
+        android:textSize="14sp"
+        app:lineHeight="24dp"
+        android:fontFamily="@font/QuicksandRegular"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:text="Kontak:"
+        android:textColor="#854D4C"
+        android:textSize="14sp"
+        app:lineHeight="24dp"
+        android:fontFamily="@font/QuicksandSemiBold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ikon_email1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/email"/>
+
+        <TextView
+            android:id="@+id/email1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="34dp"
+            android:text="mardhiyah20si@mahasiswa.pcr.ac.id"
+            android:textSize="14sp"
+            android:textColor="#854D4C"
+            android:fontFamily="@font/QuicksandRegular"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ikon_email2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/email"/>
+
+        <TextView
+            android:id="@+id/email2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="34dp"
+            android:text="fransisko20si@mahasiswa.pcr.ac.id"
+            android:textSize="14sp"
+            android:textColor="#854D4C"
+            android:fontFamily="@font/QuicksandRegular"/>
+    </LinearLayout>
+
+</LinearLayout>
