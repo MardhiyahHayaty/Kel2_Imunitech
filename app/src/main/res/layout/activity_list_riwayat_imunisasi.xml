@@ -28,7 +28,7 @@
         android:textSize="20sp"
         android:textColor="#854D4C"
         android:textStyle="bold"
-        android:fontFamily="@font/QuicksandBold"
+        android:fontFamily="@font/quicksandbold"
         app:layout_constraintStart_toEndOf="@+id/ikon_back_riwayat"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -70,7 +70,7 @@
                 android:text="Fransisko Putraaji"
                 android:textSize="14sp"
                 android:textColor="#854D4C"
-                android:fontFamily="@font/QuicksandSemiBold"
+                android:fontFamily="@font/quicksandsemibold"
                 app:layout_constraintStart_toEndOf="@+id/img_anak_utama"
                 app:layout_constraintTop_toTopOf="parent"/>
 
@@ -83,7 +83,7 @@
                 android:text="Usia Anak  :  2 Bulan"
                 android:textSize="14sp"
                 android:textColor="#854D4C"
-                android:fontFamily="@font/QuicksandRegular"
+                android:fontFamily="@font/quicksandregular"
                 app:layout_constraintStart_toEndOf="@+id/img_anak_utama"
                 app:layout_constraintTop_toBottomOf="@+id/data_nama_anak_imunisasi"/>
 
@@ -123,7 +123,7 @@
                 android:textSize="14sp"
                 android:textColor="#854D4C"
                 android:gravity="center"
-                android:fontFamily="@font/QuicksandSemiBold"
+                android:fontFamily="@font/quicksandsemibold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"/>
 

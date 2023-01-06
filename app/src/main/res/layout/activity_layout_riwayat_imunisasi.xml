@@ -36,7 +36,7 @@
             android:text="Polio 1"
             android:textSize="14sp"
             android:textColor="#854D4C"
-            android:fontFamily="@font/QuicksandMedium"
+            android:fontFamily="@font/quicksandmedium"
             app:layout_constraintStart_toEndOf="@+id/img_anak"
             app:layout_constraintTop_toTopOf="parent"/>
 
@@ -48,7 +48,7 @@
             android:text="23 - 11 - 2022"
             android:textSize="14sp"
             android:textColor="#854D4C"
-            android:fontFamily="@font/QuicksandRegular"
+            android:fontFamily="@font/quicksandregular"
             app:layout_constraintStart_toEndOf="@+id/img_anak"
             app:layout_constraintTop_toBottomOf="@+id/data_nama_imunisasi"/>
 
@@ -60,7 +60,7 @@
             android:text="Rumah Sakit Bhayangkara"
             android:textSize="14sp"
             android:textColor="#854D4C"
-            android:fontFamily="@font/QuicksandLight"
+            android:fontFamily="@font/quicksandlight"
             app:layout_constraintStart_toEndOf="@+id/img_anak"
             app:layout_constraintTop_toBottomOf="@+id/data_tgl_imunisasi"/>
 

@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:text="Hepatitis B"
             android:textSize="14sp"
-            android:fontFamily="@font/QuicksandSemiBold"
+            android:fontFamily="@font/quicksandsemibold"
             android:textColor="#854D4C" />
 
         <ImageView
@@ -50,12 +50,12 @@
             android:id="@+id/data_usia_anak"
             android:layout_width="93dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Usia Anak"
-            android:textSize="14sp"
-            android:textColor="#854D4C"
             android:layout_below="@+id/jenis_imunisasi1"
-            android:fontFamily="@font/QuicksandRegular"/>
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/quicksandregular"
+            android:text="Usia Anak"
+            android:textColor="#854D4C"
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/nilai_usia_anak"
@@ -63,10 +63,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_marginStart="18dp"
-            android:text=":     < 24 Jam"
+            android:text=":     24 Jam"
             android:textSize="14sp"
             android:textColor="#854D4C"
-            android:fontFamily="@font/QuicksandSemiBold"
+            android:fontFamily="@font/quicksandsemibold"
             android:layout_toEndOf="@+id/data_usia_anak"
             android:layout_below="@+id/jenis_imunisasi1"/>
 
@@ -79,7 +79,7 @@
             android:textSize="14sp"
             android:textColor="#854D4C"
             android:layout_below="@+id/data_usia_anak"
-            android:fontFamily="@font/QuicksandRegular"/>
+            android:fontFamily="@font/quicksandregular"/>
 
         <TextView
             android:id="@+id/nilai_manfaat"
@@ -92,7 +92,7 @@
             android:textColor="#854D4C"
             android:layout_toEndOf="@+id/data_manfaat"
             android:layout_below="@+id/nilai_usia_anak"
-            android:fontFamily="@font/QuicksandRegular"/>
+            android:fontFamily="@font/quicksandregular"/>
 
         <TextView
             android:id="@+id/data_efek"
@@ -103,7 +103,7 @@
             android:textSize="14sp"
             android:textColor="#854D4C"
             android:layout_below="@+id/nilai_manfaat"
-            android:fontFamily="@font/QuicksandRegular"/>
+            android:fontFamily="@font/quicksandregular"/>
 
         <TextView
             android:id="@+id/nilai_efek"
@@ -116,7 +116,7 @@
             android:textColor="#854D4C"
             android:layout_toEndOf="@+id/data_efek"
             android:layout_below="@+id/nilai_manfaat"
-            android:fontFamily="@font/QuicksandRegular"/>
+            android:fontFamily="@font/quicksandregular"/>
     </RelativeLayout>
 
 </androidx.cardview.widget.CardView>

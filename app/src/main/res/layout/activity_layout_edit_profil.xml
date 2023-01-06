@@ -15,7 +15,7 @@
         android:textStyle="bold"
         android:gravity="center"
         android:background="#F6DED4"
-        android:fontFamily="@font/QuicksandBold"/>
+        android:fontFamily="@font/quicksandbold"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -26,7 +26,7 @@
         android:text="Nama Lengkap"
         android:textColor="#854D4C"
         android:textSize="14sp"
-        android:fontFamily="@font/QuicksandMedium"/>
+        android:fontFamily="@font/quicksandmedium"/>
 
     <EditText
         android:id="@+id/edtNamaPenggunaUpdate"
@@ -45,7 +45,7 @@
         android:text="Alamat Email"
         android:textColor="#854D4C"
         android:textSize="14sp"
-        android:fontFamily="@font/QuicksandMedium"/>
+        android:fontFamily="@font/quicksandmedium"/>
 
     <EditText
         android:id="@+id/edtEmailUpdate"
@@ -64,7 +64,7 @@
         android:text="Password"
         android:textColor="#854D4C"
         android:textSize="14sp"
-        android:fontFamily="@font/QuicksandMedium"/>
+        android:fontFamily="@font/quicksandmedium"/>
 
     <EditText
         android:id="@+id/edtPassword"
@@ -83,7 +83,7 @@
         android:text="No Hp"
         android:textColor="#854D4C"
         android:textSize="14sp"
-        android:fontFamily="@font/QuicksandMedium"/>
+        android:fontFamily="@font/quicksandmedium"/>
 
     <EditText
         android:id="@+id/edtNoHp"
@@ -102,7 +102,7 @@
         android:text="Nama Suami"
         android:textColor="#854D4C"
         android:textSize="14sp"
-        android:fontFamily="@font/QuicksandMedium"/>
+        android:fontFamily="@font/quicksandmedium"/>
 
     <EditText
         android:id="@+id/edtNamaSuami"
@@ -121,7 +121,7 @@
         android:text="Nama Istri"
         android:textColor="#854D4C"
         android:textSize="14sp"
-        android:fontFamily="@font/QuicksandMedium"/>
+        android:fontFamily="@font/quicksandmedium"/>
 
     <EditText
         android:id="@+id/edtNamaIstri"
@@ -140,7 +140,7 @@
         android:text="Alamat Rumah"
         android:textColor="#854D4C"
         android:textSize="14sp"
-        android:fontFamily="@font/QuicksandMedium"/>
+        android:fontFamily="@font/quicksandmedium"/>
 
     <EditText
         android:id="@+id/edtAlamatRumah"

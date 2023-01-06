@@ -10,7 +10,7 @@
     <ImageView
         android:id="@+id/logo_imu_daftar"
         android:layout_width="190dp"
-        android:layout_height="72"
+        android:layout_height="72dp"
         android:layout_marginTop="69dp"
         android:layout_marginStart="111dp"
         android:src="@drawable/logo" />
@@ -30,7 +30,7 @@
             android:text="Daftar"
             android:textColor="#854D4C"
             android:textSize="36sp"
-            android:fontFamily="@font/QuicksandBold"/>
+            android:fontFamily="@font/quicksandbold"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -40,7 +40,7 @@
             android:text="Selamat datang di IMUNITECH."
             android:textColor="#854D4C"
             android:textSize="14sp"
-            android:fontFamily="@font/QuicksandRegular"/>
+            android:fontFamily="@font/quicksandregular"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
             android:text="Daftarkan akun Anda sekarang juga."
             android:textColor="#854D4C"
             android:textSize="14sp"
-            android:fontFamily="@font/QuicksandRegular"/>
+            android:fontFamily="@font/quicksandregular"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -61,7 +61,7 @@
             android:text="Alamat Email"
             android:textColor="#854D4C"
             android:textSize="14sp"
-            android:fontFamily="@font/QuicksandMedium"/>
+            android:fontFamily="@font/quicksandmedium"/>
 
         <EditText
             android:id="@+id/edtDaftarEmail"
@@ -80,7 +80,7 @@
             android:text="Kata Sandi"
             android:textColor="#854D4C"
             android:textSize="14sp"
-            android:fontFamily="@font/QuicksandMedium"/>
+            android:fontFamily="@font/quicksandmedium"/>
 
         <EditText
             android:id="@+id/edtDaftarKataSandi"
@@ -99,7 +99,7 @@
             android:text="Nama Pengguna"
             android:textColor="#854D4C"
             android:textSize="14sp"
-            android:fontFamily="@font/QuicksandMedium"/>
+            android:fontFamily="@font/quicksandmedium"/>
 
         <EditText
             android:id="@+id/edtDaftarNama"
@@ -118,7 +118,7 @@
             android:text="Alamat Pengguna"
             android:textColor="#854D4C"
             android:textSize="14sp"
-            android:fontFamily="@font/QuicksandMedium"/>
+            android:fontFamily="@font/quicksandmedium"/>
 
         <EditText
             android:id="@+id/edtDaftarAlamat"
@@ -136,7 +136,7 @@
             android:layout_marginTop="38dp"
             android:layout_marginEnd="34dp"
             android:background="#E9BBAB"
-            android:fontFamily="@font/QuicksandSemiBold"
+            android:fontFamily="@font/quicksandsemibold"
             android:text="Daftar"
             android:textColor="#854D4C"
             android:textSize="16sp"
@@ -156,7 +156,7 @@
                 android:text="Sudah punya akun?"
                 android:textColor="#854D4C"
                 android:textSize="14sp"
-                android:fontFamily="@font/QuicksandRegular"/>
+                android:fontFamily="@font/quicksandregular"/>
 
             <TextView
                 android:id="@+id/linkMasuk"
@@ -168,7 +168,7 @@
                 android:text="Masuk"
                 android:textColor="#854D4C"
                 android:textSize="14sp"
-                android:fontFamily="@font/QuicksandBold" />
+                android:fontFamily="@font/quicksandbold" />
         </LinearLayout>
 
     </LinearLayout>

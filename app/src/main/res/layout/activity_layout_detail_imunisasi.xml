@@ -30,7 +30,7 @@
             android:text="Informasi Umum Imunisasi"
             android:textSize="20sp"
             android:textColor="#854D4C"
-            android:fontFamily="@font/QuicksandBold"/>
+            android:fontFamily="@font/quicksandbold"/>
     </LinearLayout>
 
     <ImageView
@@ -53,7 +53,7 @@
         android:textColor="#854D4C"
         android:textSize="20sp"
         android:gravity="center"
-        android:fontFamily="@font/QuicksandBold"/>
+        android:fontFamily="@font/quicksandbold"/>
 
     <ImageView
         android:id="@+id/img_garis"
@@ -71,7 +71,7 @@
         android:layout_marginStart="34dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="34dp"
-        android:fontFamily="@font/QuicksandRegular"
+        android:fontFamily="@font/quicksandregular"
         android:justificationMode="inter_word"
         android:text="Vaksin hepatitis B adalah vaksin yang mencegah hepatitis B. Vaksin ini bekerja dengan cara merangsang sistem kekebalan tubuh agar menghasilkan antibodi untuk melawan virus. Vaksin hepatitis B diberikan sebanyak 3 dosis pada bulan ke 0, 1 dan 6. Dosis pertama dianjurkan dalam 24 jam kelahiran dengan dua atau tiga dosis lagi diberikan setelahnya."
         android:textColor="#854D4C"
@@ -84,8 +84,8 @@
         android:layout_marginStart="34dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="34dp"
-        android:fontFamily="@font/QuicksandRegular"
-        android:gravity="justify"
+        android:fontFamily="@font/quicksandregular"
+
         android:text="Rilis pada 16 Desember 2022
                                    Sumber dari kemenkes.go.id"
         android:textColor="#854D4C"
