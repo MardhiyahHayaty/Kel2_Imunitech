@@ -11,29 +11,28 @@
         android:label="fragment_splash_screen"
         tools:layout="@layout/fragment_splash_screen" >
         <action
-            android:id="@+id/action_splashScreenFragment_to_halamanUtamaFragment2"
-            app:destination="@id/halamanUtamaFragment2"
-            app:popUpTo="@id/viewPagerFragment" />
-        <action
             android:id="@+id/action_splashScreenFragment_to_viewPagerFragment"
             app:destination="@id/viewPagerFragment"
-            app:popUpTo="@id/halamanUtamaFragment2"
+            app:popUpTo="@id/masukActivity"
             app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashScreenFragment_to_masukActivity"
+            app:destination="@id/masukActivity"
+            app:popUpTo="@id/splashScreenFragment" />
     </fragment>
-    <fragment
-        android:id="@+id/halamanUtamaFragment2"
-        android:name="com.example.kel2_imunitech.HalamanUtamaFragment"
-        android:label="fragment_halaman_utama"
-        tools:layout="@layout/fragment_halaman_utama" />
     <fragment
         android:id="@+id/viewPagerFragment"
         android:name="com.example.kel2_imunitech.vPagerFragment.ViewPagerFragment"
         android:label="fragment_view_pager"
         tools:layout="@layout/fragment_view_pager" >
         <action
-            android:id="@+id/action_viewPagerFragment_to_halamanUtamaFragment2"
-            app:destination="@id/halamanUtamaFragment2"
-            app:popUpTo="@id/splashScreenFragment"
-            app:popUpToInclusive="true" />
+            android:id="@+id/action_viewPagerFragment_to_masukActivity"
+            app:destination="@id/masukActivity"
+            app:popUpTo="@id/viewPagerFragment" />
     </fragment>
+    <activity
+        android:id="@+id/masukActivity"
+        android:name="com.example.kel2_imunitech.MasukActivity"
+        android:label="activity_masuk"
+        tools:layout="@layout/activity_masuk" />
 </navigation>

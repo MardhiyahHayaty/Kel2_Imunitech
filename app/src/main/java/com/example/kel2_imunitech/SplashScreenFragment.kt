@@ -18,7 +18,7 @@ class SplashScreenFragment : Fragment() {
         Handler().postDelayed({
             if (onBoardingFinished()){
                 findNavController().navigate(
-                    R.id.action_splashScreenFragment_to_halamanUtamaFragment2)
+                    R.id.masukActivity)
             } else{
                 findNavController().navigate(
                     R.id.action_splashScreenFragment_to_viewPagerFragment)
@@ -28,7 +28,7 @@ class SplashScreenFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_splash_screen, container, false)
     }
     private fun onBoardingFinished(): Boolean {
-        val sharePref = requireActivity().getSharedPreferences("Onboarding", Context.MODE_PRIVATE)
+        val sharePref = requireActivity().getSharedPreferences("SplashScreenFragment", Context.MODE_PRIVATE)
         return sharePref.getBoolean("Selesai", false)
     }
 }

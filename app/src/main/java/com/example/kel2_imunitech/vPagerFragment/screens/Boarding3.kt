@@ -24,7 +24,7 @@ class Boarding3 : Fragment(){
         binding = FragmentBoarding3Binding.bind(view)
         binding.txtSelesai.setOnClickListener{
             findNavController().navigate(
-                R.id.action_viewPagerFragment_to_halamanUtamaFragment2
+                R.id.masukActivity
             )
             onBoardingFinished()
         }
@@ -33,7 +33,7 @@ class Boarding3 : Fragment(){
 
     private fun onBoardingFinished(){
         val sharedPref = requireActivity()
-            .getSharedPreferences("HalamanUtama", Context.MODE_PRIVATE)
+            .getSharedPreferences("MasukActivity", Context.MODE_PRIVATE)
         val editor = sharedPref.edit()
         editor.putBoolean("Selesai", true)
         editor.apply()

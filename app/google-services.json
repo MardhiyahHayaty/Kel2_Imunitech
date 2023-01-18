@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "394969908266",
+    "project_id": "kel2-imunitech",
+    "storage_bucket": "kel2-imunitech.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394969908266:android:eed740bf524e12990eaf53",
+        "android_client_info": {
+          "package_name": "com.example.kel2_imunitech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394969908266-igdt1689fla39clrda8189fq00bki809.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kel2_imunitech",
+            "certificate_hash": "8e8aafaa325c02c5742cf3367f002ac4afbd8039"
+          }
+        },
+        {
+          "client_id": "394969908266-mrttcvrt8iic1j68otbfsvugj16oj2ms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhctAcXTz7Jh-A86y-2jb3pxmeXSf0_pA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394969908266-mrttcvrt8iic1j68otbfsvugj16oj2ms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
