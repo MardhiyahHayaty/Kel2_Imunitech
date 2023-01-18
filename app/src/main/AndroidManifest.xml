@@ -14,7 +14,7 @@
         android:theme="@style/Theme.Kel2_Imunitech"
         tools:targetApi="31">
         <activity
-            android:name=".MasukActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

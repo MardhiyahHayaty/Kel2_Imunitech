@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/viewPagerFragment">
+
+    <fragment
+        android:id="@+id/splashScreenFragment"
+        android:name="com.example.kel2_imunitech.SplashScreenFragment"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashScreenFragment_to_halamanUtamaFragment2"
+            app:destination="@id/halamanUtamaFragment2"
+            app:popUpTo="@id/viewPagerFragment" />
+        <action
+            android:id="@+id/action_splashScreenFragment_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment"
+            app:popUpTo="@id/halamanUtamaFragment2"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/halamanUtamaFragment2"
+        android:name="com.example.kel2_imunitech.HalamanUtamaFragment"
+        android:label="fragment_halaman_utama"
+        tools:layout="@layout/fragment_halaman_utama" />
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.example.kel2_imunitech.vPagerFragment.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" >
+        <action
+            android:id="@+id/action_viewPagerFragment_to_halamanUtamaFragment2"
+            app:destination="@id/halamanUtamaFragment2"
+            app:popUpTo="@id/splashScreenFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

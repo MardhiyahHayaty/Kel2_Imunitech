@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">Kel2_Imunitech</string>
+    <string name="app_name">AplikasiApotech</string>
+    <string name="namaAplikasi">imunitech</string>
+    <string name="taplanjut">Tap untuk melanjutkan</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
