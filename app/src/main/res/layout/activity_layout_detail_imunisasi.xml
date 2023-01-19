@@ -44,6 +44,7 @@
         android:gravity="center"/>
 
     <TextView
+        android:id="@+id/namaimunisasi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="22dp"
@@ -66,6 +67,7 @@
         android:gravity="center"/>
 
     <TextView
+        android:id="@+id/kontendetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
@@ -79,6 +81,7 @@
         app:lineHeight="24dp" />
 
     <TextView
+        android:id="@+id/datapembuat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
