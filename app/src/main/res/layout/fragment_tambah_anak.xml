@@ -18,7 +18,8 @@
             android:layout_height="34dp"
             android:layout_marginStart="34dp"
             android:layout_marginTop="34dp"
-            android:src="@drawable/ikon_back"/>
+            android:src="@drawable/ikon_back"
+            />
 
         <TextView
             android:id="@+id/judulFormAnakFragment"
@@ -30,7 +31,8 @@
             android:text="Form Data Si Kecil"
             android:textSize="20sp"
             android:textColor="#854D4C"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:fontFamily="@font/quicksandbold"/>
     </LinearLayout>
 
     <TextView
@@ -42,7 +44,8 @@
         android:text="Daftarkan data diri Si Kecil agar imunisasi dapat terpenuhi secara tepat."
         android:textColor="#854D4C"
         android:textSize="14sp"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:fontFamily="@font/quicksandregular"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -53,7 +56,8 @@
         android:text="Nama Anak"
         android:textColor="#854D4C"
         android:textSize="14sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:fontFamily="@font/quicksandsemibold"/>
 
     <EditText
         android:id="@+id/edtNamaAnak"
@@ -72,7 +76,7 @@
         android:text="Jenis Kelamin"
         android:textColor="#854D4C"
         android:textSize="14sp"
-        android:textStyle="bold"/>
+        android:fontFamily="@font/quicksandsemibold"/>
 
     <EditText
         android:id="@+id/edtJenisKelaminAnak"
@@ -91,7 +95,7 @@
         android:text="Tanggal Lahir"
         android:textColor="#854D4C"
         android:textSize="14sp"
-        android:textStyle="bold"/>
+        android:fontFamily="@font/quicksandsemibold"/>
 
     <EditText
         android:id="@+id/edtTanggalLahirAnak"
@@ -110,7 +114,7 @@
         android:text="Alamat Anak"
         android:textColor="#854D4C"
         android:textSize="14sp"
-        android:textStyle="bold"/>
+        android:fontFamily="@font/quicksandsemibold"/>
 
     <EditText
         android:id="@+id/edtAlamatAnak"
@@ -127,7 +131,7 @@
         android:layout_marginTop="60dp"
         android:layout_marginStart="34dp"
         android:layout_marginEnd="34dp"
-        android:background="#E9BBAB"
+        android:background="@drawable/buttonbg"
         android:text="Simpan"
         android:textColor="#854D4C"
         android:textSize="16sp"/>

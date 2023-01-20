@@ -97,4 +97,89 @@
         android:textColor="#854D4C"
         android:textSize="16sp"
         android:fontFamily="@font/quicksandsemibold"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kotaknavbar"
+            android:layout_marginTop="168dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="94dp">
+            <ImageButton
+                android:id="@+id/btn_home"
+                android:layout_width="35dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="84dp"
+                android:layout_marginLeft="31dp"
+                android:backgroundTint="@color/button"
+                android:src="@drawable/navbar_home"
+                app:layout_constraintHorizontal_bias="0.047"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <ImageButton
+                android:id="@+id/btn_lapor"
+                android:layout_width="35dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="84dp"
+                android:layout_marginLeft="45dp"
+                android:backgroundTint="@color/button"
+                android:src="@drawable/navbar_lapor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.26"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/btn_artikel"
+                android:layout_width="35dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="84dp"
+                android:layout_marginLeft="45dp"
+                android:backgroundTint="@color/button"
+                android:src="@drawable/navbar_artikel"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/btn_tentang"
+                android:layout_width="46dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="84dp"
+                android:layout_marginLeft="40dp"
+                android:backgroundTint="@color/button"
+                android:src="@drawable/navbar_tentang"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.723"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/btn_profil"
+                android:layout_width="35dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="84dp"
+                android:layout_marginLeft="43dp"
+                android:backgroundTint="@color/button"
+                android:src="@drawable/navbar_profil"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.723"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

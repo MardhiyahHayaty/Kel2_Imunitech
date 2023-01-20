@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".LokasiImunisasiActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="343dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="10dp"
+        android:outlineAmbientShadowColor="@color/button">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/namaRumahSakit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rumah Sakit Bhayangkara Pekanbaru"
+                android:fontFamily="@font/quicksandsemibold"
+                android:textColor="@color/tulisan"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"/>
+
+            <com.google.android.material.internal.BaselineLayout
+                android:layout_width="343dp"
+                android:layout_height="1dp"
+                android:background="#F4DDD5"
+                android:layout_marginTop="6dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="18dp"
+                    android:text="Jenis Imunisasi"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/quicksandregular"
+                    android:textColor="@color/tulisan"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:layout_width="5dp"
+                    android:layout_height="18dp"
+                    android:text=":"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/quicksandregular"
+                    android:textColor="@color/tulisan"
+                    android:textSize="12sp"/>
+                <TextView
+                    android:id="@+id/loc_JenisImunisasi"
+                    android:layout_width="26dp"
+                    android:layout_height="18dp"
+                    android:text="BCG"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/quicksandsemibold"
+                    android:textColor="@color/tulisan"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="18dp"
+                    android:text="Hari"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/quicksandregular"
+                    android:textColor="@color/tulisan"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:layout_width="5dp"
+                    android:layout_height="18dp"
+                    android:text=":"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/quicksandregular"
+                    android:textColor="@color/tulisan"
+                    android:textSize="12sp"/>
+                <TextView
+                    android:id="@+id/loc_Hari"
+                    android:layout_width="70dp"
+                    android:layout_height="18dp"
+                    android:text="Setiap Hari"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/quicksandsemibold"
+                    android:textColor="@color/tulisan"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="18dp"
+                    android:text="Waktu"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/quicksandregular"
+                    android:textColor="@color/tulisan"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:layout_width="5dp"
+                    android:layout_height="18dp"
+                    android:text=":"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/quicksandregular"
+                    android:textColor="@color/tulisan"
+                    android:textSize="12sp"/>
+                <TextView
+                    android:id="@+id/loc_Waktu"
+                    android:layout_width="102dp"
+                    android:layout_height="18dp"
+                    android:text="08.00 - 16.00 WIB"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/quicksandsemibold"
+                    android:textColor="@color/tulisan"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="18dp"
+                    android:text="Alamat"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/quicksandregular"
+                    android:textColor="@color/tulisan"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:layout_width="5dp"
+                    android:layout_height="18dp"
+                    android:text=":"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/quicksandregular"
+                    android:textColor="@color/tulisan"
+                    android:textSize="12sp"/>
+                <TextView
+                    android:id="@+id/loc_Alamat"
+                    android:layout_width="202dp"
+                    android:layout_height="18dp"
+                    android:text="Jl. Cut Nyak Dien No. 7 Pekanbaru"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/quicksandsemibold"
+                    android:textColor="@color/tulisan"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/bookingImunisasi"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:text="Daftar"
+                android:fontFamily="@font/quicksandbold"
+                android:textColor="@color/tulisan"
+                android:backgroundTint="@color/button"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
