@@ -41,7 +41,7 @@ class HomeActivity : AppCompatActivity() {
         }
 
         binding.menuLokasiimunisasi.setOnClickListener {
-            val intent = Intent(this@HomeActivity, ListLokasiImunisasiActivity::class.java)
+            val intent = Intent(this@HomeActivity, LokasiImunisasiActivity::class.java)
             startActivity(intent)
         }
     }
