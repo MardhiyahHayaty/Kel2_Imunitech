@@ -21,7 +21,7 @@ class HomeActivity : AppCompatActivity() {
 
     private fun menuButton(){
         binding.menuDataanak.setOnClickListener {
-            val intent = Intent(this@HomeActivity, LaporActivity::class.java)
+            val intent = Intent(this@HomeActivity, ListAnakActivity::class.java)
             startActivity(intent)
         }
 
