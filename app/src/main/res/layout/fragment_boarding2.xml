@@ -17,7 +17,7 @@
         android:src="@drawable/boarding2" />
 
     <TextView
-        android:layout_width="169dp"
+        android:layout_width="180dp"
         android:layout_height="45dp"
         android:layout_marginLeft="125dp"
         android:layout_marginTop="350dp"
@@ -33,9 +33,8 @@
         android:layout_marginLeft="60dp"
         android:layout_marginRight="60dp"
         android:layout_marginTop="400dp"
-        android:fontFamily="@font/quicksandlight"
-        android:text="Jangan biarkan si Kecil Kamu tumbuh dan
-        berkembang tanpa imunisasi! Lebih baik mencegah daripada mengobati!"
+        android:fontFamily="@font/quicksandregular"
+        android:text="Jangan biarkan si Kecil Kamu tumbuh dan berkembang tanpa imunisasi! Lebih baik mencegah daripada mengobati!"
         android:textAlignment="center"
         android:textColor="@color/tulisan"
         android:textSize="14sp" />
@@ -47,7 +46,7 @@
         android:layout_marginLeft="135dp"
         android:layout_marginTop="550dp"
         android:layout_marginRight="60dp"
-        android:fontFamily="@font/quicksandlight"
+        android:fontFamily="@font/quicksandregular"
         android:text="@string/taplanjut"
         android:textColor="@color/tulisan"
         android:textSize="14sp" />

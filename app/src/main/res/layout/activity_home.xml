@@ -4,12 +4,14 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".HomeActivity">
+    tools:context=".HomeActivity"
+    android:backgroundTint="#F6DED4">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/bg_home" />
+        android:src="@drawable/bg_home"
+        android:layout_marginTop="-40dp"/>
 
     <TextView
         android:layout_width="176dp"
@@ -46,7 +48,7 @@
         android:layout_width="82dp"
         android:layout_height="92dp"
         android:src="@drawable/menu_dataanak"
-        android:layout_marginTop="225dp"
+        android:layout_marginTop="215dp"
         android:layout_marginLeft="60dp"
 
         />
@@ -56,7 +58,7 @@
         android:layout_width="120dp"
         android:layout_height="100dp"
         android:layout_marginLeft="240dp"
-        android:layout_marginTop="223dp"
+        android:layout_marginTop="213dp"
         android:src="@drawable/menu_jenisimun" />
 
     <ImageView
@@ -72,7 +74,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/menu_lokasiimunisasi"
-        android:layout_marginTop="420dp"
+        android:layout_marginTop="410dp"
         android:layout_marginLeft="55dp"
         />
 
@@ -81,7 +83,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/menu_riwayatimunisasi"
-        android:layout_marginTop="420dp"
+        android:layout_marginTop="410dp"
         android:layout_marginLeft="270dp"
         />
 
@@ -89,7 +91,7 @@
         android:layout_width="381dp"
         android:layout_height="100dp"
         android:layout_marginLeft="15dp"
-        android:layout_marginTop="550dp"
+        android:layout_marginTop="545dp"
         android:elevation="200dp"
         android:outlineSpotShadowColor="@color/tulisan"
         android:outlineAmbientShadowColor="@color/tulisan"
@@ -141,7 +143,7 @@
         android:layout_width="381dp"
         android:layout_height="100dp"
         android:layout_marginLeft="15dp"
-        android:layout_marginTop="660dp"
+        android:layout_marginTop="650dp"
         android:elevation="200dp"
         android:outlineSpotShadowColor="@color/tulisan"
         android:outlineAmbientShadowColor="@color/tulisan"
@@ -192,12 +194,12 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="580dp">
+        android:layout_marginTop="590dp">
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/kotaknavbar"
-            android:layout_marginTop="168dp"
+            android:layout_marginTop="173dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
@@ -206,7 +208,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
-            android:layout_marginTop="94dp">
+            android:layout_marginTop="98dp">
             <ImageButton
                 android:id="@+id/btn_home"
                 android:layout_width="35dp"

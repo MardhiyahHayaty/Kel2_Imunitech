@@ -58,7 +58,7 @@ class HomeActivity : AppCompatActivity() {
         }
 
         binding.btnArtikel.setOnClickListener {
-            val intent = Intent(this@HomeActivity, ArtikelActivity::class.java)
+            val intent = Intent(this@HomeActivity, ListArtikelActivity::class.java)
             startActivity(intent)
         }
 
@@ -68,7 +68,7 @@ class HomeActivity : AppCompatActivity() {
         }
 
         binding.btnTentang.setOnClickListener {
-            val intent = Intent(this@HomeActivity, TentangActivity::class.java)
+            val intent = Intent(this@HomeActivity, TentangKamiActivity::class.java)
             startActivity(intent)
         }
 

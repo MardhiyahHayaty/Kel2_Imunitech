@@ -22,5 +22,35 @@ class LaporActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        menuNavbar()
+
+    }
+
+    private fun menuNavbar(){
+        binding.btnHome.setOnClickListener {
+            val intent = Intent(this@LaporActivity, HomeActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnLapor.setOnClickListener {
+            val intent = Intent(this@LaporActivity, LaporActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnArtikel.setOnClickListener {
+            val intent = Intent(this@LaporActivity, ListArtikelActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnProfil.setOnClickListener {
+            val intent = Intent(this@LaporActivity, ProfilActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnTentang.setOnClickListener {
+            val intent = Intent(this@LaporActivity, TentangKamiActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

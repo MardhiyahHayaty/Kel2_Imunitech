@@ -33,7 +33,7 @@
         android:layout_marginLeft="60dp"
         android:layout_marginRight="60dp"
         android:layout_marginTop="400dp"
-        android:fontFamily="@font/quicksandlight"
+        android:fontFamily="@font/quicksandregular"
         android:text="Ayo, daftarkan si Kecil Kamu untuk mendapatkan imunisasi melalui aplikasi kami! Catat dan jangan sampai lewatkan tanggalnya!"
         android:textAlignment="center"
         android:textColor="@color/tulisan"
@@ -46,7 +46,7 @@
         android:layout_marginLeft="135dp"
         android:layout_marginTop="550dp"
         android:layout_marginRight="60dp"
-        android:fontFamily="@font/quicksandlight"
+        android:fontFamily="@font/quicksandregular"
         android:text="@string/taplanjut"
         android:textColor="@color/tulisan"
         android:textSize="14sp" />
@@ -55,6 +55,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="175dp"
-        android:layout_marginTop="630dp"/>
+        android:layout_marginTop="630dp"
         android:src="@drawable/titik3_3" />
 </RelativeLayout>

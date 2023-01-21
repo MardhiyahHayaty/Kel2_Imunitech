@@ -2,9 +2,11 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".TentangKamiActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -116,33 +118,25 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="50dp">
+        android:layout_height="match_parent">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="67dp"
             android:src="@drawable/kotaknavbar"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_marginTop="62dp">
-
-        </LinearLayout>
 
         <ImageButton
             android:id="@+id/btn_home"
             android:layout_width="35dp"
             android:layout_height="48dp"
             android:layout_marginLeft="16dp"
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="82dp"
             android:backgroundTint="@color/button"
             android:src="@drawable/navbar_home"
             app:layout_constraintEnd_toEndOf="parent"
@@ -154,8 +148,8 @@
             android:id="@+id/btn_lapor"
             android:layout_width="35dp"
             android:layout_height="48dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="82dp"
             android:backgroundTint="@color/button"
             android:src="@drawable/navbar_lapor"
             app:layout_constraintEnd_toEndOf="parent"
@@ -167,8 +161,8 @@
             android:id="@+id/btn_artikel"
             android:layout_width="35dp"
             android:layout_height="48dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="82dp"
             android:backgroundTint="@color/button"
             android:src="@drawable/navbar_artikel"
             app:layout_constraintEnd_toEndOf="parent"
@@ -179,8 +173,8 @@
             android:id="@+id/btn_tentang"
             android:layout_width="46dp"
             android:layout_height="48dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="80dp"
             android:backgroundTint="@color/button"
             android:src="@drawable/navbar_tentang"
             app:layout_constraintEnd_toEndOf="parent"
@@ -193,13 +187,14 @@
             android:layout_width="35dp"
             android:layout_height="48dp"
             android:layout_marginLeft="32dp"
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="82dp"
             android:backgroundTint="@color/button"
             android:src="@drawable/navbar_profil"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.93"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </LinearLayout>

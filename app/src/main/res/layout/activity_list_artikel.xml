@@ -27,7 +27,7 @@
             android:textColor="@color/tulisan"/>
         <TextView
             android:layout_width="343dp"
-            android:layout_height="54dp"
+            android:layout_height="62dp"
             android:text="Laporkan gejala atau efek samping yang terjadi pada Si Kecil setelah imunisasi untuk mendapatkan penanganan lebih lanjut"
             android:layout_marginTop="140dp"
             android:layout_marginLeft="34dp"
@@ -53,7 +53,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/kotaknavbar"
-        android:layout_marginTop="759dp"
+        android:layout_marginTop="760dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
@@ -62,12 +62,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
-        android:layout_marginTop="94dp">
+        android:layout_marginTop="103dp">
         <ImageButton
             android:id="@+id/btn_home"
             android:layout_width="35dp"
             android:layout_height="48dp"
-            android:layout_marginTop="676dp"
+            android:layout_marginTop="668dp"
             android:layout_marginLeft="31dp"
             android:backgroundTint="@color/button"
             android:src="@drawable/navbar_home"
@@ -80,7 +80,7 @@
             android:id="@+id/btn_lapor"
             android:layout_width="35dp"
             android:layout_height="48dp"
-            android:layout_marginTop="676dp"
+            android:layout_marginTop="667dp"
             android:layout_marginLeft="45dp"
             android:backgroundTint="@color/button"
             android:src="@drawable/navbar_lapor"
@@ -93,7 +93,7 @@
             android:id="@+id/btn_artikel"
             android:layout_width="35dp"
             android:layout_height="48dp"
-            android:layout_marginTop="676dp"
+            android:layout_marginTop="668dp"
             android:layout_marginLeft="45dp"
             android:backgroundTint="@color/button"
             android:src="@drawable/navbar_artikel"
@@ -105,7 +105,7 @@
             android:id="@+id/btn_tentang"
             android:layout_width="46dp"
             android:layout_height="48dp"
-            android:layout_marginTop="676dp"
+            android:layout_marginTop="667dp"
             android:layout_marginLeft="40dp"
             android:backgroundTint="@color/button"
             android:src="@drawable/navbar_tentang"
@@ -118,7 +118,7 @@
             android:id="@+id/btn_profil"
             android:layout_width="35dp"
             android:layout_height="48dp"
-            android:layout_marginTop="676dp"
+            android:layout_marginTop="667dp"
             android:layout_marginLeft="43dp"
             android:backgroundTint="@color/button"
             android:src="@drawable/navbar_profil"

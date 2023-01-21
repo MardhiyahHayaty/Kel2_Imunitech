@@ -8,7 +8,7 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 
 class DataLokasiService {
-    private val BASE_URL = "https://998a-2001-448a-1082-c519-e853-6110-6457-97a7.ap.ngrok.io/api/"
+    private val BASE_URL = "https://65c4-110-137-93-115.ap.ngrok.io/api/"
     private val api: ListDataLokasiApi
 
     init {

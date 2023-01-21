@@ -150,4 +150,17 @@
         android:layout_marginEnd="24dp"
         android:color="#854D4C"/>
 
+    <Button
+        android:id="@+id/btnKirim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:background="@drawable/buttonbg"
+        android:text="Simpan"
+        android:textColor="#854D4C"
+        android:textSize="16sp"
+        android:fontFamily="@font/quicksandbold"/>
+
 </LinearLayout>

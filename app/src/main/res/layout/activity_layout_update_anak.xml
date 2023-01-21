@@ -14,7 +14,8 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:gravity="center"
-        android:background="#F6DED4"/>
+        android:background="#F6DED4"
+        android:fontFamily="@font/quicksandbold"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,7 +26,7 @@
         android:text="Nama Anak"
         android:textColor="#854D4C"
         android:textSize="14sp"
-        android:textStyle="bold"/>
+        android:fontFamily="@font/quicksandsemibold"/>
 
     <EditText
         android:id="@+id/edtNamaAnakUpdate"
@@ -44,7 +45,7 @@
         android:text="Jenis Kelamin"
         android:textColor="#854D4C"
         android:textSize="14sp"
-        android:textStyle="bold"/>
+        android:fontFamily="@font/quicksandsemibold"/>
 
     <EditText
         android:id="@+id/edtJenisKelaminAnakUpdate"
@@ -63,7 +64,7 @@
         android:text="Tanggal Lahir"
         android:textColor="#854D4C"
         android:textSize="14sp"
-        android:textStyle="bold"/>
+        android:fontFamily="@font/quicksandsemibold"/>
 
     <EditText
         android:id="@+id/edtTanggalLahirAnakUpdate"
@@ -82,7 +83,7 @@
         android:text="Alamat Anak"
         android:textColor="#854D4C"
         android:textSize="14sp"
-        android:textStyle="bold"/>
+        android:fontFamily="@font/quicksandsemibold"/>
 
     <EditText
         android:id="@+id/edtAlamatAnakUpdate"
@@ -91,5 +92,24 @@
         android:layout_marginStart="29dp"
         android:layout_marginEnd="29dp"
         android:color="#854D4C"/>
+
+
+
+    <Button
+        android:id="@+id/btnKirim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:background="#E9BBAB"
+        android:text="Kirim"
+        android:textColor="#854D4C"
+        android:textSize="16sp"
+        android:fontFamily="@font/quicksandsemibold"/>
+
+
+
+
 
 </LinearLayout>
